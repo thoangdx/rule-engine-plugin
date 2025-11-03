@@ -1,0 +1,8 @@
+build:
+  stage: build
+  script:
+    - mvn clean package -DskipTests
+  artifacts:
+    paths:
+      - rule-engine-core/target/*.jar
+      - rule-engine-springboot-starter/target/*.jar
