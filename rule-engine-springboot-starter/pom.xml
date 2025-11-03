@@ -8,7 +8,7 @@
     <version>1.0.0</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-    <groupId>vect.com</groupId>
+    <groupId>com.vetc</groupId>
     <artifactId>rule-engine-springboot-starter</artifactId>
     <version>1.0.0</version>
 
@@ -19,11 +19,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
-    <dependency>
-      <groupId>com.vetc</groupId>
-      <artifactId>rule-engine-core</artifactId>
-      <version>1.0.0</version>
-    </dependency>
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
